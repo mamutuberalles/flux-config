@@ -12,3 +12,5 @@ spec:
        name: bitnami
      version: ">=2.7.0"
  interval: 1m0s
+values:
+  --set auth.rootPassword=root

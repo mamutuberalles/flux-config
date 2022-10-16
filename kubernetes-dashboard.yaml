@@ -6,8 +6,8 @@ metadata:
  spec:
   chart: kubernetes-dashboard/kubernetes-dashboard
     spec:
+      chart: kubernetes-dashboard
       sourceRef:
-        chart: kubernetes-dashboard
         kind: HelmRepository
         name: kubernetes-dashboard
       version: ">=2.7.0"

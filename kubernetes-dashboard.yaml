@@ -4,12 +4,12 @@ metadata:
   name: kubernetes-dashboard
   namespace: default
  spec:
-  chart: kubernetes-dashboard/kubernetes-dashboard
-    spec:
-      chart: kubernetes-dashboard
-      sourceRef:
-        kind: HelmRepository
-        name: kubernetes-dashboard
-      version: ">=2.7.0"
-  interval: 30m0s
-  values:
+ chart: kubernetes-dashboard/kubernetes-dashboard
+   spec:
+     chart: kubernetes-dashboard
+     sourceRef:
+       kind: HelmRepository
+       name: kubernetes-dashboard
+     version: ">=2.7.0"
+ interval: 30m0s
+values:

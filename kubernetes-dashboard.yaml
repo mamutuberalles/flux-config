@@ -3,8 +3,8 @@ kind: HelmRelease
 metadata:
   name: kubernetes-dashboard
   namespace: default
- spec:
- chart: kubernetes-dashboard/kubernetes-dashboard
+spec:
+ chart:
    spec:
      chart: kubernetes-dashboard
      sourceRef:

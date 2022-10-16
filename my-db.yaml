@@ -13,4 +13,4 @@ spec:
      version: ">=2.7.0"
  interval: 1m0s
 values:
-  --set auth.rootPassword=root
+  --set auth.rootPassword=secretpassword,auth.username=my-user,auth.password=my-password,auth.database=my-database

@@ -12,3 +12,4 @@ metadata:
         name: kubernetes-dashboard
       version: ">=2.7.0"
   interval: 30m0s
+  values:

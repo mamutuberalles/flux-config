@@ -1,1 +1,8 @@
-https://netdata.github.io/helmchart/
+apiVersion:  source.toolkit.fluxcd.io/v1beta1
+kind: HelmRepository
+metadata:
+  name: bitnami
+  namespace: default
+spec:
+  interval: 30m0s
+  url: https://netdata.github.io/helmchart/
